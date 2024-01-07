@@ -6,6 +6,6 @@ This repository contains all neccesary tools to build my workspace in any enviro
 ### Lazyvim
 
 ```bash
-curl -o- https://raw.githubusercontent.com/XanMarta/workspace/master/lazyvim/install.sh | bash
+curl https://xanmarta.github.io/nvim.sh | bash
 ```
 
