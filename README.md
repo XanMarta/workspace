@@ -1,6 +1,6 @@
 # Workspace
 
-This repository contains all neccesary tools to build my workspace in any environment. Those tools are Neovim, Font, Zsh configuration, etc. 
+This repository contains all necessary tools to build my workspace in any environment. Those tools are Neovim, Font, Zsh configuration, etc. 
 
 
 ### Lazyvim
