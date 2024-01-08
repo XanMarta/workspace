@@ -17,7 +17,7 @@ fi
 
 # Copy new configuration
 echo "----- Copying new configuration files -----"
-cp ~/.temp/workspace/lazyvim/nvim ~/.config/nvim -r
+cp -r ~/.temp/workspace/lazyvim/nvim ~/.config/nvim
 
 # Remove workspace
 echo "----- Removing workspace -----"
