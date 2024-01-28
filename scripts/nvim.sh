@@ -5,8 +5,11 @@ GITHUB_WORKSPACE=https://github.com/XanMarta/workspace.git
 # Clone workspace
 echo "----- Cloning workspace -----"
 mkdir -p ~/.temp
-rm -rf ~/.temp/workspace
-git clone $GITHUB_WORKSPACE ~/.temp/workspace
+if [ ! -d ~/.temp/workspace ]; then
+  git clone $GITHUB_WORKSPACE ~/.temp/workspace
+else
+  git -C ~/.temp/workspace pull origin master
+fi
 
 # Backup old configuration
 echo "----- Backing up old configuration -----"
@@ -18,8 +21,4 @@ fi
 # Copy new configuration
 echo "----- Copying new configuration files -----"
 cp -r ~/.temp/workspace/lazyvim/nvim ~/.config/nvim
-
-# Remove workspace
-echo "----- Removing workspace -----"
-rm -rf ~/.temp/workspace
 

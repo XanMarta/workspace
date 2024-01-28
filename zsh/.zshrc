@@ -1,2 +1,2 @@
-# <zshrc.extended>
+# <.zshrc.extended>
 source ~/.zshrc.extended.sh

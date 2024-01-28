@@ -7,8 +7,10 @@ return {
         mappings = {
           ["z"] = "close_node",
           ["Z"] = "close_all_nodes",
-          ["e"] = "open",
           ["s"] = "open",
+          ["e"] = "open_vsplit",
+          ["E"] = "open_split",
+          ["S"] = "none",
         }
       },
     },
