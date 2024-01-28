@@ -4,6 +4,12 @@ return {
     opts = {
       window = {
         position = "float",
+        mappings = {
+          ["z"] = "close_node",
+          ["Z"] = "close_all_nodes",
+          ["e"] = "open",
+          ["s"] = "open",
+        }
       },
     },
   },
