@@ -10,3 +10,5 @@ export KUBE_EDITOR=vim
 alias c='xclip -sel clip'
 alias p='xclip -o -sel clip'
 
+# Distrobox
+alias db='distrobox'
