@@ -28,3 +28,12 @@ if [ -f ~/.tmux.conf ]; then
 fi
 cp ~/.temp/workspace/tmux/.tmux.conf ~/.tmux.conf
 
+# Copy alacritty config
+if [ ! -d ~/.config/alacritty ]; then
+  cp ~/.temp/workspace/alacritty ~/.config/alacritty -r
+fi
+if [ ! -d ~/.config/alacritty/themes ]; then
+  mkdir -p ~/.config/alacritty/themes
+  git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+fi
+
