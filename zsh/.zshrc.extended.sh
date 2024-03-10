@@ -10,5 +10,8 @@ export KUBE_EDITOR=vim
 alias c='xclip -sel clip'
 alias p='xclip -o -sel clip'
 
+# Tmux
+alias t='tmux'
+
 # Distrobox
 alias db='distrobox'
