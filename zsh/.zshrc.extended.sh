@@ -15,3 +15,6 @@ alias t='tmux'
 
 # Distrobox
 alias db='distrobox'
+
+# Use C-b to jump to beginning of line (instead of C-a)
+bindkey "^B" beginning-of-line
